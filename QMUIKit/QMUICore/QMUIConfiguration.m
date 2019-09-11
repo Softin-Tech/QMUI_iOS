@@ -225,7 +225,7 @@ static BOOL QMUI_hasAppliedInitialTemplate;
     #pragma mark - Others
     
     self.supportedOrientationMask = UIInterfaceOrientationMaskAll;
-    self.preventConcurrentNavigationControllerTransitions = YES;
+    self.preventConcurrentNavigationControllerTransitions = NO;
     self.shouldPrintQMUIWarnLogToConsole = IS_DEBUG;
     self.sendAnalyticsToQMUITeam = YES;
 }
